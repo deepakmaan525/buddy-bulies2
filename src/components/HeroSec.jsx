@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Navbar = () => {
+const HeroSec = () => {
     return (
         <div>
             <header className="bg-header-img min-vh-100 overflow-auto">
@@ -34,4 +34,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default HeroSec
