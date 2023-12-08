@@ -51,7 +51,7 @@ const Cards = () => {
     ))
     return (
         <div>
-            <div className="row pt-5">
+            <div className="row pt-md-5">
                 {list}
             </div>
         </div>

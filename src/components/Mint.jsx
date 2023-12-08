@@ -44,52 +44,7 @@ const Mint = () => {
                             </div>
                         </div>
                     </div>
-                    {/* <div className="row pt-5">
-                        <div data-aos="flip-up" className="col-lg-4 col-md-6 col-12 mt-5">
-                            <div className="info-card">
-                                <img className='pb-5' src={mintImg1} alt="mint-img-1"/>
-                                <p className="text-white fw-semibold fs-xl1 ff-poppins lh-100">ART COLLECTION</p>
-                                <p className="text_gray2 lh-150 ff-poppins fs-md">Complete the art collection in full with +70 unique traits, and publish our rarity chart on our webpage.</p>
-                            </div>
-                        </div>
-                        <div data-aos="flip-down" className="col-lg-4 col-md-6 col-12 mt-5">
-                            <div className="info-card ">
-                                <img className='pb-5' src={mintImg2} alt="card2-img"/>
-                                <p className="text-white fw-semibold fs-xl1 ff-poppins lh-100">SPECIAL BULLIES</p>
-                                <p className="text_gray2 lh-150 ff-poppins fs-md"><span className="f-buddy-bulies"> 20 Buddybullies</span> &#123; out of 10k &#125; will have a very special and ersonalized resembling of famous people who are into NFTs &#123; those will be available after the minting &#125;.</p>
-                            </div>
-                        </div>
-                        <div data-aos="flip-up" className="col-lg-4 col-md-6 col-12 mt-5">
-                            <div className="info-card ">
-                                <img className='pb-5' src={mintImg3} alt="card3-img"/>
-                                <p className="text-white fw-semibold fs-xl1 ff-poppins lh-100">BREEDING</p>
-                                <p className="text_gray2 lh-150 ff-poppins fs-md">Our <span className="f-buddybulies">BuddyBullies</span> will not come alone, as we will announce the breeding function after the minting and you will be able to get a PuppyBully &#123;for free&#125; .</p>
-                            </div>
-                        </div>
-                        <div data-aos="flip-down" className="col-lg-4 col-md-6 col-12 mt-5">
-                            <div className="info-card ">
-                                <img className='pb-5' src={mintImg4} alt="card4-img"/>
-                                <p className="text-white fw-semibold fs-xl1 ff-poppins lh-100">DIGITALMARKETS</p>
-                                <p className="text_gray2 lh-150 ff-poppins fs-md"><span className="f-buddy-bulies"> Communicate with all the digital markets</span> available in the Solana NFT world for getting our collection successfully listed.</p>
-                            </div>
-                        </div>
-                        <div data-aos="flip-up" className="col-lg-4 col-md-6 col-12 mt-5">
-                            <div className="info-card ">
-                                <img className='pb-5' src={mintImg5} alt="card5-img
-                                " />
-                                <p className="text-white fw-semibold fs-xl1 ff-poppins lh-100">MERCH</p>
-                                <p className="text_gray2 lh-150 ff-poppins fs-md">The team is <span className="f-buddybulies">working on the future merch</span> thet will be available for the community members directly on our webpage.</p>
-                            </div>
-                        </div>
-                        <div data-aos="flip-down" className="col-lg-4 col-md-6 col-12 mt-5">
-                            <div className="info-card ">
-                                <img className='pb-5' src={mintImg6} alt="card6-img"/>
-                                <p className="text-white fw-semibold fs-xl1 ff-poppins lh-100">CHARITY</p>
-                                <p className="text_gray2 lh-150 ff-poppins fs-md">We will be giving <span className="f-buddybulies">30% of the royalties to charity</span> permanently and we will keep spending on marketing, promotions and partnership.50% of the riyalties will go back to the community as rewards. </p>
-                            </div>
-                        </div>
-                    </div> */}
-                    <Cards/>
+                    <Cards />
                 </div>
             </div>
         </div>
