@@ -109,6 +109,22 @@
   list-style-type: none !important;
   text-decoration: none !important;
 }
+.overflow-x-clip{
+  overflow-x: clip;
+}
+.d_none{
+  display: none;
+}
+#Top {
+  background: none;
+  border: none;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  z-index: 3;
+}
 
 ul {
   padding-left: 0 !important;
@@ -161,6 +177,40 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   min-height: 625px;
+}
+/* ellipse */
+.mint-ellipse{
+  width: 337px;
+height: 337px;
+flex-shrink: 0;
+border-radius: 337px;
+background: #009DFF;
+filter: blur(250px);
+position: absolute ;
+top: 40%;
+right: -10%;
+}
+.roadmap-ellipse{
+  width: 337px;
+height: 337px;
+flex-shrink: 0;
+border-radius: 337px;
+background: #009DFF;
+filter: blur(250px);
+position: absolute ;
+top: 30%;
+left: -10%;
+}
+.faq-ellipse{
+  width: 337px;
+height: 337px;
+flex-shrink: 0;
+border-radius: 337px;
+background: #009DFF;
+filter: blur(250px);
+position: absolute ;
+top:0;
+right: -10%;
 }
 
 /* max-width */
@@ -225,8 +275,6 @@ ul {
 }
 
 /* roadmap2 */
-/* 2nd section (roadmap) */
-
 .timeline {
   position: relative;
   max-width: 1200px;

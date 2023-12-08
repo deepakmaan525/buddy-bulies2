@@ -4,7 +4,8 @@ import TeamCards from './TeamCards'
 const Faq = () => {
   return (
     <div>
-      <section class="bg-dark-blue position-relative z-index overflow-hidden" id="faq">
+      <section class="bg-dark-blue position-relative z-index overflow-x-clip" id="faq">
+        <div className="faq-ellipse"></div>
         <div class="container position-relative">
             <h2 class="fs-xxl fw-semibold lh-136 ff-poppins text-white d-flex justify-content-center py-5">FAQs</h2>
             <div class="accordion margin-x-auto " id="accordionExample">

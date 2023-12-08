@@ -7,6 +7,7 @@ const Mint = () => {
         <div>
             <div className='bg-heroGradient'></div>
             <div className="bg-dark-blue overflow-hidden position-relative z-1" id="minting">
+                <div className="mint-ellipse"></div>
                 <div className="container pb-md-5">
                     <div className="row pt-4 pb-5">
                         <div data-aos="fade-right" className="col-lg-6 col-12 ">

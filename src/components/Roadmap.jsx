@@ -3,8 +3,9 @@ import React from 'react'
 const Roadmap = () => {
   return (
     <div>
-       <section class="py-sm-5 py-3 position-relative overflow-hidden z-5" id="roadmap">
-        <div data-aos="zoom-out-right" class="container pt-md-5">
+       <section class="py-sm-5 py-3 position-relative overflow-x-clip z-5" id="roadmap">
+        <div className="roadmap-ellipse"></div>
+        <div class="container pt-md-5">
             <h2 class="text-white lh-136 fw-semibold fs-xxl ff-poppins d-flex justify-content-center">Roadmap</h2>
             <div class="timeline">
                 <div class="timeline-container right">
